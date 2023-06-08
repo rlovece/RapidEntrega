@@ -3,12 +3,12 @@ package org.example.clases;
 public class Cliente extends Persona {
 
     // <editor-fold defaultstate="collapsed" desc="Atributos">
-private String domicilio;
+    private String domicilio;
 //    </editor-fold>
-   
+
     // <editor-fold defaultstate="collapsed" desc="Constructores">
- public Cliente(int id, String nombreYApellido, String dni, String telefono, String username, String password, String domicilio) {
-        super(id,nombreYApellido, dni, telefono, username, password);
+    public Cliente(int id, String nombreYApellido, String dni, String telefono, String username, String password, String domicilio) {
+        super(id, nombreYApellido, dni, telefono, username, password);
         this.domicilio = domicilio;
     }
 
@@ -19,9 +19,9 @@ private String domicilio;
     public Cliente() {
     }
 //    </editor-fold>
-    
+
     // <editor-fold defaultstate="collapsed" desc="Getters & Setters">
-  public String getDomicilio() {
+    public String getDomicilio() {
         return domicilio;
     }
 
@@ -31,10 +31,9 @@ private String domicilio;
 //    </editor-fold>
 
     // <editor-fold defaultstate="collapsed" desc="To String">
-
-@Override
+    @Override
     public String toString() {
-        return super.toString() + "\nDomicilio = " + domicilio ;
+        return super.toString() + "\nDomicilio = " + domicilio;
     }
 //    </editor-fold>      
 }
