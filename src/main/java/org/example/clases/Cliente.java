@@ -29,23 +29,9 @@ private String domicilio;
         this.domicilio = domicilio;
     }
 //    </editor-fold>
-  
-    // <editor-fold defaultstate="collapsed" desc="Auxiliar">
-    //endregion
-//
-//    @Override
-//    public String toString() {
-//        return super.toString() +
-//                "\nDomicilio = " + domicilio;
-//    }
-//    </editor-fold>
 
     // <editor-fold defaultstate="collapsed" desc="To String">
-    
-//@Override
-//    public String toString() {
-//        return String.format("\n%s \nDomicilio : %24s\n====================================", super.toString(), domicilio).replace("[","").replace("]", "");
-//    }
+
 @Override
     public String toString() {
         return super.toString() + "\nDomicilio = " + domicilio ;

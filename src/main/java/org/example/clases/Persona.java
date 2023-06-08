@@ -3,7 +3,6 @@ package org.example.clases;
 public class Persona {
 
     // <editor-fold defaultstate="collapsed" desc="Atributos">
-//    private static int identificador = 0;
     private int Id;
     private String nombreYApellido, dni, telefono, username, password;
 //    </editor-fold>
@@ -72,24 +71,9 @@ public class Persona {
     }
 
 //    </editor-fold>
-    // <editor-fold defaultstate="collapsed" desc="Auxiliar">
-//    @Override
-//    public String toString() {
-//        return "\n" +
-//                "\nId = " + Id +
-//                "\nNombre y Apellido = " + nombreYApellido +
-//                "\nDni = " + dni +
-//                "\nTelefono = " + telefono +
-//                "\nUsername = " + username +
-//                "\nPassword = " + password;
-//    }
-//    </editor-fold> 
+
     // <editor-fold defaultstate="collapsed" desc="To String">
-//    @Override
-//    public String toString() {
-//        System.out.println("=====================================");
-//               return String.format("===========|"+nombreYApellido+"|============\nId : %31d \nNombre y Apaellido : %15s \nDni : %30s \nTelefono : %25s \nUsername : %25s \nPassword : %25s", Id, nombreYApellido, dni, telefono, username, password);
-//    } 
+
     @Override
     public String toString() {
         return "Id = " + Id
