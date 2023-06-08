@@ -103,6 +103,7 @@ public class ClienteRep implements IRepository<Cliente>, Serializable {
     }
 
 //    </editor-fold>
+
     // <editor-fold defaultstate="collapsed" desc="Serializacion & Deserealizacion">
     @Override
     public void serializable(ArrayList<Cliente> object, String pathJson
@@ -164,6 +165,7 @@ public class ClienteRep implements IRepository<Cliente>, Serializable {
     }
 
 //    </editor-fold>
+
     // <editor-fold defaultstate="collapsed" desc="To String">
     @Override
     public String toString() {
