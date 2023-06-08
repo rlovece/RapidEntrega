@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a900b705-360e-4d52-9779-c4eaea41cbb8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/Enumerador.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/excepciones/Excepciones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clases/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clases/Repartidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/clases/Supervisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/enums/TiposDePaquetes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,13 +19,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -44,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "E:/Proyecto/RapidEntrega/src/main/java/org/example/repositorio",
+    "last_opened_file_path": "C:/Users/54223/Desktop/UTN/3er cuatrimestre/Pro&Lab III/Proyectos Java/TP Final III",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
