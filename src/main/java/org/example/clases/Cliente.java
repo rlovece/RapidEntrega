@@ -30,10 +30,6 @@ public class Cliente extends Persona {
     }
 //    </editor-fold>
 
-    // <editor-fold defaultstate="collapsed" desc="Auxiliar">
-
-//    </editor-fold>
-
     // <editor-fold defaultstate="collapsed" desc="To String">
     @Override
     public String toString() {
